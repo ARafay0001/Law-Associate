@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baloch & Suddozai Law Associates</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- Header -->
+<header class="navbar">
+  <div class="logo">Baloch & Suddozai</div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="./assets/logo.png" alt="Law firm office" />
+        </div>
+        <div class="hero-text">
+          <h1><span class="highlight">Baloch & Suddozai</span> Law Associates</h1>
+          <p>
+            Providing expert legal guidance with integrity, professionalism,
+            and excellence. We stand beside you through every challenge.
+          </p>
+          <div class="hero-buttons">
+            <a href="#about" class="btn primary">Learn More</a>
+            <a href="#contact" class="btn secondary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">▼</div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about fade-in">
+      <h2>About Our Firm</h2>
+      <p>
+        At <b>Baloch & Suddozai</b>, we combine legal expertise with deep
+        client understanding. Our firm specializes in corporate, family, and
+        criminal law. We believe in trust, transparency, and results.
+      </p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services fade-in">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Corporate Law</h3>
+          <p>Comprehensive legal solutions tailored for businesses and startups.</p>
+        </div>
+        <div class="service-card">
+          <h3>Family Law</h3>
+          <p>Guiding you with compassion through personal and sensitive matters.</p>
+        </div>
+        <div class="service-card">
+          <h3>Criminal Defense</h3>
+          <p>Protecting your rights with unmatched dedication and expertise.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="team fade-in">
+      <h2>Meet Our Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1607112622249-b769ce8fab5f?auto=format&fit=crop&w=400&q=80" alt="Attorney 1" />
+          <h3>Sarah Khan</h3>
+          <p>Senior Attorney</p>
+        </div>
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80" alt="Attorney 2" />
+          <h3>Ali Imran</h3>
+          <p>Corporate Lawyer</p>
+        </div>
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80" alt="Attorney 3" />
+          <h3>Kashif Ahmed</h3>
+          <p>Criminal Defense Expert</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials fade-in">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>"Professional, transparent, and truly caring. Highly recommended!"</p>
+          <h4>- Ahmed Raza</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>"They handled my business case flawlessly with attention to every detail."</p>
+          <h4>- Fatima Noor</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact fade-in">
+      <h2>Get in Touch</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <label>Your Name:<input type="text" name="name" required /></label>
+        <label>Your Email:<input type="email" name="email" required /></label>
+        <label>Message:<textarea name="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      © <span id="year"></span> Baloch & Suddozai Law Associates. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
