@@ -125,7 +125,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background: var(--black);
+  background: black;
   color: var(--white);
   position: relative;
   padding: 150px 20px 100px;
