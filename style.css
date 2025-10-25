@@ -5,13 +5,14 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+
 }
 
 /* Theme Colors */
 :root {
   --black: #0a0a0a;
   --white: #fff;
-  --gold: #d4af37;
+  --gold: rgb(212, 175, 55);
   --gray: #888;
 }
 
@@ -215,7 +216,13 @@ nav ul li a:hover {
   margin-top: 50px;
   font-size: 1.5rem;
   color: var(--gold);
+  cursor: pointer;
+  user-select: none;
   animation: bounce 2s infinite;
+}
+
+.arrrow-down {
+  text-decoration: none;
 }
 
 @keyframes bounce {
@@ -236,7 +243,15 @@ h2 {
 
 /* Services */
 .services {
-  background: #f8f8f8;
+  background: #000000;
+
+  h1 {
+    color: var(--white);
+  }
+}
+
+.services h2 {
+  color: var(--white);
 }
 
 .service-grid {
@@ -251,7 +266,7 @@ h2 {
   background: var(--white);
   padding: 25px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.336);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
