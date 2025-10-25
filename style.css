@@ -369,4 +369,7 @@ footer {
   nav ul {
     gap: 15px;
   }
+  .hero-buttons {   
+    justify-content: center;
+  } 
 }
